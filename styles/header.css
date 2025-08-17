@@ -11,7 +11,34 @@ header {
   width: 100%;
   text-align: center;
 
+  #profile {
+    width: 5.45456rem;
+    height: 5.45456rem;
+    position: relative;
+
+    img {
+      width: 5.45456rem;
+      height: 5.45456rem;
+      border: 2px solid var(--color-red);
+      border-radius: 50%;
+      padding: 0.27rem;
+    }
+    span {
+      position: absolute;
+      bottom: -0.45rem;
+      right: -0.25rem;
+      index: 1;
+      img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+      }
+    }
+  }
   .container-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 52rem;
   }
   h1 {
