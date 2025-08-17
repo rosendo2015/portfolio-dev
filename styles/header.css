@@ -1,8 +1,19 @@
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/assets/images/Background_Intro.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0 auto;
-  max-width: 51rem;
+  width: 100%;
   text-align: center;
 
+  .container-primary {
+    max-width: 52rem;
+  }
   h1 {
     color: var(--color-gray-100);
     font-weight: 700;
@@ -50,5 +61,12 @@ header {
         object-fit: cover;
       }
     }
+    li:hover {
+      background-color: var(--color-gray-400);
+    }
+  }
+
+  #scroll-down {
+    margin-block: 5.88rem 3.56rem;
   }
 }

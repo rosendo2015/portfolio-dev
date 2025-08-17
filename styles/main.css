@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font: var(--font-subtitle);
+    margin-bottom: 0.5rem;
+    color: var(--color-red);
+    font-weight: 400;
+  }
+  p {
+    font: var(--font-title-md);
+    color: var(--color-gray-100);
+    font-weight: 700;
+  }
+}
+.container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.card {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  width: 20.625rem;
+  background-color: var(--color-gray-400);
+  border-radius: 8px;
+  padding: 0.75rem;
+
+  transition: transform 0.3s ease;
+  h3 {
+    font: var(--font-title-sm);
+    font-weight: 700;
+    color: var(--color-gray-100);
+    margin-block: 1.5rem 0.5rem;
+  }
+  span {
+    font: var(--font-text-sm);
+    color: var(--color-gray-200);
+    font-weight: 400;
+  }
+}
