@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-red: #e3646e;
+  --color-purple: #bb72e9;
+  --color-blue: #3996db;
+  --color-green: #82bc4f;
+  --color-yellow: #eabd5f;
+  --color-gray-100: #e2e4e9;
+  --color-gray-200: #c0c4ce;
+  --color-gray-300: #878ea1;
+  --color-gray-400: #292c34;
+  --color-gray-500: #16181d;
+  --color-gray-600: #0d0e11;
+
+  --font-family-title: 'Asap', sans-serif;
+  --font-family-primary: 'Inconsolata', monospace;
+  --font-family-secondary: 'Maven Pro', sans-serif;
+
+  --font-title-lg: 56px/120% var(--font-family-title);
+  --font-title-md: 24px/120% var(--font-family-title);
+  --font-title-sm: 16px/120% var(--font-family-title);
+  --font-subtitle: 20px/120% var(--font-family-primary);
+  --font-text-md: 16px/140% var(--font-family-secondary);
+  --font-text-sm: 14px/140% var(--font-family-secondary);
+}
+body {
+  background-color: var(--color-gray-500);
+  color: var(--color-gray-100);
+  font-family: var(--font-family-primary);
+  line-height: 1.6;
+  padding: 20px;
+}
+a {
+  color: var(--color-gray-200);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h1 {
+  font: var(--font-title-lg);
+  color: inherit;
+}
+h2 {
+  font: var(--font-title-md);
+  color: inherit;
+}
+h3 {
+  font: var(--font-title-sm);
+  color: inherit;
+}

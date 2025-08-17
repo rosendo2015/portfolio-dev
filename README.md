@@ -1,8 +1,8 @@
-# Desafio Portal de notícias.
+# Desafio prático - Portfólio Dev.
 
 ![preview](.github/preview.png)
 
-> Trilha FullStack - Projeto feito para cumprir desafio TECH NEWS - PORTAL DE NOTICIAS - Rocketseat :rocket:.
+> Trilha FullStack - Projeto feito para cumprir Desafio prático - Portfólio Dev - Rocketseat :rocket:.
 
 ## :dart: Desafio
 
