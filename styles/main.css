@@ -14,7 +14,17 @@ main {
     font-weight: 700;
   }
 }
+.container-header-main {
+  text-align: center;
+
+  margin-block: 4.5rem 3.5rem;
+  h2 {
+    margin-bottom: 0.5rem;
+    color: var(--color-red);
+  }
+}
 .container-cards {
+  margin-bottom: 9rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
@@ -41,5 +51,54 @@ main {
     font: var(--font-text-sm);
     color: var(--color-gray-200);
     font-weight: 400;
+  }
+}
+
+.container-aside {
+  padding-inline: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--color-gray-600);
+  padding-block: 5.5rem 7.5rem;
+  h4 {
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+  }
+  h2 {
+    font: var(--font-subtitle);
+    margin-bottom: 0.5rem;
+    color: var(--color-red);
+    font-weight: 400;
+  }
+  .wrapper-aside-card {
+    padding-inline: 7.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .card-aside {
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    h3 {
+      font-weight: 700;
+    }
+    img {
+      width: 48px;
+      height: auto;
+      margin-bottom: 1.25rem;
+    }
+    p {
+      color: var(--color-gray-200);
+      font: var(--font-text-sm);
+      margin-top: 0.5rem;
+    }
+    border: 2px solid var(--color-gray-500);
+    background-color: transparent;
+    width: 17.5rem;
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -52,6 +52,9 @@ h3 {
   font: var(--font-title-sm);
   color: inherit;
 }
+h4 {
+  font: var(--font-title-md);
+}
 main {
   padding-inline: 7.5rem;
 }
