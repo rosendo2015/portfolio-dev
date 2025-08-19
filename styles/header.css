@@ -91,6 +91,73 @@ header {
     li:hover {
       background-color: var(--color-gray-400);
     }
+    :nth-child(1) span {
+      background-image: url('../assets/icons/GitHub.svg');
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(1) span:hover {
+      background-image: url('../assets/icons/GitHub-hover.svg');
+      background-size: cover;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    :nth-child(2) span {
+      background-image: url('../assets/icons/HTML.svg');
+      background-size: cover;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(2) span:hover {
+      background-image: url('../assets/icons/HTML-hover.svg');
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(3) span {
+      background-image: url('../assets/icons/CSS.svg');
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(3) span:hover {
+      background-image: url('../assets/icons/CSS-hover.svg');
+      background-size: cover;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(4) span {
+      background-image: url('../assets/icons/JavaScript.svg');
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(4) span:hover {
+      background-image: url('../assets/icons/JavaScript-hover.svg');
+      background-size: cover;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(5) span {
+      background-image: url('../assets/icons/React.svg');
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(5) span:hover {
+      background-image: url('../assets/icons/React-hover.svg');
+      background-size: cover;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(6) span {
+      background-image: url('../assets/icons/Node.js.svg');
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    :nth-child(6) span:hover {
+      background-image: url('../assets/icons/Node.js-hover.svg');
+      background-size: cover;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
 
   #scroll-down {
