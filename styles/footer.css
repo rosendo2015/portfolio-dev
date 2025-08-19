@@ -16,7 +16,8 @@ footer {
   flex-direction: column;
   gap: 1rem;
 }
-
+.container-wrapper-inputs.wrapper-inputs.social-input:nth-child(2) {
+}
 .wrapper-inputs {
   cursor: pointer;
   display: flex;
@@ -31,5 +32,59 @@ footer {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+
+    #Linkedin {
+      background-image: url('../assets/icons/LinkedinLogo.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+    #Linkedin:hover {
+      background-image: url('../assets/icons/LinkedinLogoBlue.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+
+    #Instagram {
+      background-image: url('../assets/icons/InstagramLogo.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+    #Instagram:hover {
+      background-image: url('../assets/icons/InstagramLogoColor.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+    #GitHub {
+      background-image: url('../assets/icons/GithubLogo.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+    #GitHub:hover {
+      background-image: url('../assets/icons/GithubLogoColor.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+    #E-mail {
+      background-image: url('../assets/icons/EnvelopeSimple.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+    #E-mail:hover {
+      background-image: url('../assets/icons/EnvelopeSimpleColor.svg');
+      background-repeat: no-repeat;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
   }
 }
+
+/*
+
+*/
